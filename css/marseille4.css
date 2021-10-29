@@ -1,0 +1,526 @@
+
+body{
+    background-color: rgb(226, 226, 226);
+}
+
+
+#bloblo
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1d0088;
+
+}
+#blobli
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+
+}
+
+.roses
+{
+    font-family: Arial;
+    font-size: 2rem;
+	text-align: center;
+    height:10vh;
+    line-height: 10vh;
+	color: #1d0088;
+	font-family: 'Niconne', cursive;
+	font-weight: 700;
+    text-shadow: 5px 5px 0px #0110e9b0, 
+    10px 10px 0px #0b57faa9,
+    15px 15px 0px #158ad8;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 150px;
+
+}
+.scryyy
+{
+    font-family: Arial;
+}
+
+.paragrapha-1
+{
+margin-bottom: 50px;
+}
+
+.alignement {
+    display:flex;
+    justify-content:space-between;
+    padding:auto;
+    
+}
+.screen-beleveder
+{
+    width: 26.6%;
+    margin-bottom: 50px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(21, 55, 117);
+    background-color: rgb(21, 55, 117);
+}
+
+.liste-rando1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1d0088;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: double;
+    width: 8%;
+    border-width: 5px;
+    border-radius: 10px 10px 10px 10px;
+    border-color: rgb(21, 55, 117);
+}
+.liste-rando
+{
+    display: flex;
+    justify-content: center;
+}
+.sommairia
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #880000;
+}
+
+
+.title-belvedere
+{
+    width: 24%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px 10px 10px 10px;
+    border-width: 5px;
+    border-style: double;
+    border-color: rgb(21, 55, 117);
+    margin-bottom: 50px;
+
+
+}
+
+
+
+
+
+    /*display: flex;
+    flex-direction: column;
+    align-items: end;*/
+
+.LesGoudes
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.quatre-photo-belveder
+{
+    background-color: rgb(21, 55, 117);
+    width: 67%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(21, 55, 117);
+    display: block;
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
+.niveau-111
+{
+    display: flex;
+
+
+
+}
+.niveau-izi
+{
+    width: 2.6%;
+    border-color: rgb(77, 77, 77);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 200px 200px 200px 200px;
+
+}
+
+.niveau-alt
+{
+    width: 3.2%;
+    border-color: rgb(77, 77, 77);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 200px 200px 200px 200px;
+    
+}
+.niveau-alti
+{
+    width: 3.2%;
+    border-color: rgb(77, 77, 77);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 200px 200px 200px 200px;
+}
+.niveau-alt-max
+{
+    width: 6.7%;
+    border-color: rgb(77, 77, 77);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 200px 200px 200px 200px;
+}
+.titre-tour-goudes
+{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px 10px 10px 10px;
+    border-width: 5px;
+    border-style: double;
+    border-color: rgb(21, 55, 117);
+    margin-bottom: 50px;
+
+}
+.titre-accesibiliter
+{
+    margin-bottom: 80px;
+}
+.paragraphe2
+{
+    margin-bottom: 100px;
+}
+.you-look1
+{
+    display: flex;
+    
+
+}
+.look2
+{
+    width: 5.4%;
+    border-color: rgb(77, 77, 77);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 200px 200px 200px 200px;
+}
+
+.look3
+{
+    width: 2.3%;
+    border-color: rgb(77, 77, 77);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 200px 200px 200px 200px;
+}
+.look4
+{
+    width: 4.2%;
+    border-color: rgb(77, 77, 77);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 200px 200px 200px 200px;
+}
+.look5
+{
+    width: 3%;
+    border-color: rgb(77, 77, 77);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 200px 200px 200px 200px;
+}
+.look6
+{
+    width: 7.7%;
+    border-color: rgb(77, 77, 77);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 200px 200px 200px 200px;
+}
+.look7
+{
+    width: 1.9%;
+    border-color: rgb(77, 77, 77);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 200px 200px 200px 200px;
+}
+.sss
+{
+    width: 200px; 
+    height: 300px;
+    width: 27.4%;
+    display: flex;
+    margin-left: 60%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(21, 55, 117);
+}
+
+
+.screen-beleveder
+{
+    margin-bottom: 80px;
+}
+.paragraphe-rando-ii
+{
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.texti-goude
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 50px;
+}
+.niveau-goudes
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.niveau-goudes1
+{
+    width: 38%;
+    border-color: rgb(77, 77, 77);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 100px 100px 100px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.niveau-goudes2
+{
+    width: 22%;
+    border-color: rgb(77, 77, 77);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 100px 100px 100px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.niveau-goudes3
+{
+
+    width: 55%;
+    border-color: rgb(77, 77, 77);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 100px 100px 100px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lokoto-vousverrez
+{
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.toutii-look
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.looko1
+{
+    width: 48%;
+    border-color: rgb(77, 77, 77);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 200px 200px 200px 200px;
+}
+.looko2
+{
+    width: 38%;
+    border-color: rgb(77, 77, 77);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 200px 200px 200px 200px;
+}
+.looko3
+{
+    width: 50%;
+    border-color: rgb(77, 77, 77);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 200px 200px 200px 200px;
+}
+.looko4
+    
+{
+    width: 30%;
+    border-color: rgb(77, 77, 77);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 200px 200px 200px 200px;
+}
+.looko5
+{
+    width: 40%;
+    border-color: rgb(77, 77, 77);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 200px 200px 200px 200px;
+}
+.looko6
+{
+    width: 60%;
+    border-color: rgb(77, 77, 77);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 200px 200px 200px 200px;
+}
+.looko7
+{
+    width: 70%;
+    border-color: rgb(77, 77, 77);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 200px 200px 200px 200px;
+}
+
+.photo-natureeal
+{
+display: flex;
+justify-content: flex-end;
+}
+/*********.suiteiii
+{
+    display: flex;
+}**********/
+.screen-goudes-11
+{
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(21, 55, 117);
+    background-color: rgb(21, 55, 117);
+    margin-bottom: 50px;
+}
+.text-entre-photo-goudes
+{
+    margin-bottom: 50px;
+}
+.photo-goudes
+{
+    background-color: rgb(21, 55, 117);
+    width: 67%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(21, 55, 117);
+    display: block;
+    justify-content: center;
+    margin-bottom:150px ;
+}
+.titre-2h-estaque
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1d0088;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px 10px 10px 10px;
+    border-width: 5px;
+    border-style: double;
+    border-color: rgb(21, 55, 117);
+    margin-bottom: 50px;
+}
+.estaque-photo2
+{
+    display: flex;
+    justify-content: space-between;
+}
+.para-text-estaque
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    margin-bottom: 100px;
+}
+.estaque-droite
+{
+    margin-bottom: 100px;
+}
+.titre-prophete
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1d0088;
+    width: 20%;
+display: flex;
+justify-content: center;
+border-radius: 10px 10px 10px 10px;
+border-width: 5px;
+border-style: double;
+border-color: rgb(21, 55, 117);
+margin-bottom: 50px;
+}
+
+
+.prophete-droite
+{
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+}
+.text-prophete-11
+{
+    margin-bottom: 100px;
+}
+.prophete-gauche
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-bottom: 100px;
+}
+.titre-223
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1d0088;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px 10px 10px 10px;
+    border-width: 5px;
+    border-style: double;
+    border-color: rgb(21, 55, 117);
+    margin-bottom: 50px;
+}
+.texte-points-rouge
+{
+    margin-bottom: 70px;
+}
+
+
+.pointe-rouge-droite
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+
+
+
+
+
+
+
+
