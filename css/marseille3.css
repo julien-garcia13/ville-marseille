@@ -1,0 +1,328 @@
+body {
+    background: radial-gradient(#83cea2, #a5a5a5);
+}
+
+            /****FIN HEADER****/
+                /****FIN HEADER****/
+                    /****FIN HEADER****/
+                        /****FIN HEADER****/
+                            /****FIN HEADER****/
+                                /****FIN HEADER****/
+                                    /****FIN HEADER****/
+                                        /****FIN HEADER****/
+                                            /****FIN HEADER****/
+                                                /****FIN HEADER****/
+
+
+
+                        /****MUSEE TABLEAU****/
+                        /****MUSEE TABLEAU****/
+                        /****MUSEE TABLEAU****/
+                        /****MUSEE TABLEAU****/
+                        /****MUSEE TABLEAU****/
+                        /****MUSEE TABLEAU****/
+                        /****MUSEE TABLEAU****/
+                        /****MUSEE TABLEAU****/
+                        /****MUSEE TABLEAU****/
+                        /****MUSEE TABLEAU****/
+.lienstyle:hover
+{
+    text-decoration: none;
+}
+.lienstyle:visited {
+    color: brown;
+}
+
+.blabla-du-titre {
+    text-align:center;
+    font-family:arial;
+    word-spacing: 4px;
+    color:rgb(77, 76, 76);
+    font: italic small-caps bold 16px/2 cursive;
+    margin-top:80px;
+}
+
+.explication-du-titre {
+    text-align:center;
+    font-family:arial;
+    word-spacing: 4px;
+    font: italic small-caps bold 16px/2 cursive;
+    color:rgb(77, 76, 76);
+    
+}
+
+
+
+.testbouger {
+    display:flex;
+    justify-content: end;
+    font-family:arial;
+    word-spacing: 4px;
+    margin-top:80px;
+}
+.testbouger {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+    margin-left: 100%;
+    width: 300%;
+    }
+    75% {
+    font-size: 100%;
+    margin-left: 25%;
+    width: 150%;
+    }
+
+    to {
+    margin-left: 0%;
+    width: 100%;
+    }
+}
+caption {
+    font-family: 'Rock Salt', cursive;
+    padding: 20px;
+    font-style: italic;
+    caption-side: bottom;
+    color: rgb(71, 66, 66);
+    text-align: right;
+    letter-spacing: 1px;
+}
+.tableau-musee {
+    table-layout:fixed;
+    width: 80%; 
+    border-collapse: collapse;
+    border-style: inset white 5px;
+    text-align:center;
+    background: content-box radial-gradient(rgb(118, 200, 147), rgb(82, 182, 154));
+    font-family:arial;
+}
+
+.tete-tableau .corps-tableau:nth-child(1) {
+    width: 30%;
+    background-color:rgb(181, 228, 140);
+    
+}
+
+.tete-tableau .corps-tableau:nth-child(2) {
+    width: 40%;
+    background-color:rgb(181, 228, 140);
+}
+
+.tete-tableau .corps-tableau:nth-child(3) {
+    width: 15%;
+    background-color:rgb(181, 228, 140);
+}
+
+.tete-tableau .corps-tableau:nth-child(4) {
+    width: 35%;
+    background-color:rgb(181, 228, 140);
+}
+
+.corps-tableau, .informations-tableau {
+    padding: 20px;
+    border: 2px inset #f7f5f3;
+
+}  
+
+
+                        /****FIN MUSEE TABLEAU****/
+                        /****FIN MUSEE TABLEAU****/
+                        /****FIN MUSEE TABLEAU****/
+                        /****FIN MUSEE TABLEAU****/
+                        /****FIN MUSEE TABLEAU****/
+                        /****FIN MUSEE TABLEAU****/
+                        /****FIN MUSEE TABLEAU****/
+                        /****FIN MUSEE TABLEAU****/
+                        /****FIN MUSEE TABLEAU****/
+                        /****FIN MUSEE TABLEAU****/
+
+
+
+
+
+                        /****PHOTO+TEXTE****/
+                        /****PHOTO+TEXTE****/
+                        /****PHOTO+TEXTE****/
+                        /****PHOTO+TEXTE****/
+                        /****PHOTO+TEXTE****/
+                        /****PHOTO+TEXTE****/
+                        /****PHOTO+TEXTE****/
+                        /****PHOTO+TEXTE****/
+                        /****PHOTO+TEXTE****/
+                        /****PHOTO+TEXTE****/
+                        
+.imageplacement {
+    text-align:center;
+    background: radial-gradient(#f0d3b4, #e5d9af);
+    border-radius: 20% / 45%;
+    margin-bottom:20px;
+    width:500px;
+    font-family:fantasy;
+    font-size:50px;
+    color:brown;
+    text-shadow:   -1px -1px 0 #751C1C,  
+    1px -1px 0 #751C1C,
+    -1px 1px 0 #751C1C,
+    1px 1px 0 #751C1C,
+    1px 1px 10px #353434;
+    
+    
+}
+
+
+.photo-mucem {
+    display:flex;
+    justify-content:space-around;
+    background: conic-gradient(#9FA0FF, #DAB6FC);
+    border: 2mm ridge #e5d9af;
+    margin-bottom:20px;
+
+}
+
+.deuxphotos1 {
+    display:flex;
+    flex-direction: column;
+    border-right:3px rgb(255, 255, 255) solid;
+    margin:auto;
+}
+.deuxphotos1 {
+    filter: blur(7px);
+    transition-property: -webkit-filter;
+    transition-duration: .5s;
+    }
+    .deuxphotos1:hover, .deuxphotos1:focus {
+    filter: blur(0px);
+    }
+
+
+
+.deuxphotos2 {
+    display:flex;
+    flex-direction: column;
+    border-left:3px rgb(255, 255, 255) solid;
+    
+}
+.deuxphotos2 {
+    filter: blur(7px);
+    transition-property: -webkit-filter;
+    transition-duration: .5s;
+    }
+    .deuxphotos2:hover, .deuxphotos2:focus {
+    filter: blur(0px);
+    }
+
+
+.texte-photo {
+    text-align: center;
+    text-justify: auto;
+    margin-bottom:5px;
+    font-family:arial;
+    word-spacing: 4px;
+    
+}
+
+.titre-texte {
+    color:brown;
+    font-size: 30px;
+}
+
+
+
+/**/
+/**/
+/**/
+/**/
+
+.musee-photo {
+    display:flex;
+    justify-content:space-between;
+    background: conic-gradient(#B2E595, #68944F);
+    border: 2mm ridge #e5d9af;
+
+}
+
+.deuxmusees1 {
+    display:flex;
+    flex-direction: column;
+    border-right:3px rgb(255, 255, 255) solid;
+}
+.deuxmusees1 {
+    filter: blur(7px);
+    transition-property: -webkit-filter;
+    transition-duration: .5s;
+    }
+    .deuxmusees1:hover, .deuxmusees1:focus {
+    filter: blur(0px);
+    }
+.deuxmusees2 {
+    display:flex;
+    flex-direction: column;
+    border-left:3px rgb(255, 255, 255) solid;
+}
+.deuxmusees2 {
+    filter: blur(7px);
+    transition-property: -webkit-filter;
+    transition-duration: .5s;
+    }
+.deuxmusees2:hover, .deuxmusees2:focus {
+    filter: blur(0px);
+    }
+
+/**/
+/**/
+/**/
+/**/
+/**/
+
+.photo-expo {
+    display:flex;
+    justify-content:space-between;
+    background: conic-gradient(#757BC8, #E0C3FC);
+    border: 2mm ridge #e5d9af;
+    margin-top:20px;
+}
+
+.deuxexpo {
+    display:flex;
+    flex-direction: column;
+    border-right:3px rgb(255, 255, 255) solid;
+}
+.deuxexpo {
+    filter: blur(7px);
+    transition-property: -webkit-filter;
+    transition-duration: .5s;
+    }
+    .deuxexpo:hover, .deuxexpo:focus {
+    filter: blur(0px);
+    }
+
+.deuxexpo2 {
+    display:flex;
+    flex-direction: column;
+    border-left:3px rgb(255, 255, 255) solid;
+    
+}
+.deuxexpo2 {
+    filter: blur(7px);
+    transition-property: -webkit-filter;
+    transition-duration: .5s;
+    }
+    .deuxexpo2:hover, .deuxexpo2:focus {
+    filter: blur(0px);
+    }
+
+
+                            /****FIN****/
+                            /****FIN****/
+                            /****FIN****/
+                            /****FIN****/
+                            /****FIN****/
+                            /****FIN****/
+                            /****FIN****/
+                            /****FIN****/
+                            /****FIN****/
+                            /****FIN****/
+
