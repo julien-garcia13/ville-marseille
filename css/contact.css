@@ -1,3 +1,4 @@
+/* L'englobe du formulaire */
 .formulaire-block
 {
     display: flex;
@@ -47,7 +48,9 @@ form {
   position: relative;
   left: 37%;
 }
-.send {
+/* Le boutton */
+.send
+{
   margin-left: 30%;
   border: 0;
   line-height: 2.5;

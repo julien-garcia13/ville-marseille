@@ -1,3 +1,5 @@
+/* CSS global par Julien */
+/* Le header */
 .barre-de-navigation
 {
   display: flex;
@@ -63,7 +65,8 @@ li.tete-navigation
   display:flex;
   justify-content:center;
   flex-wrap: wrap;
-}    
+}
+/* Mise en page */    
 .bienvenue
 {
     display: flex;
@@ -84,8 +87,9 @@ li.tete-navigation
   display: flex;
   flex-wrap: wrap;
     font-size: 40px;
-    width: 38ch;
-    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    width: 32ch;
+/* Il y a une petite animation de "Bienvenue" que j'ai mis, j'ai vu un petit "bug" ou il continue d'écrire dans le vide, ou l'inverse, s'arrête. Le soucis était présent 1 fois sur 2, ou parfois il s'arrêtait au bon moment, cela dépend des navigo */
+    animation: typing 3s steps(30), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 1px solid;
@@ -112,6 +116,7 @@ li.tete-navigation
 	src: url("font/balootamma2-medium-webfont.woff") format("woff"),
            url("font/balootamma2-medium-webfont.woff2") format("woff2");
 }
+/* L'actualité brève */
 .box-actu1
 {
     display: flex;
@@ -137,6 +142,7 @@ li.tete-navigation
     margin-top: 50px;
     flex-wrap: wrap;
 }
+/* L'image est légèrement approché quand le curseur de la souris est posée */
 .plan-ecole-image
 {
   width: 20%;
@@ -183,6 +189,7 @@ li.tete-navigation
     margin-top: 50px;
     flex-wrap: wrap;
 }
+/* Guide pour rechercher un lieu spécifique */
 .map-explore
 {
   display: flex;
@@ -209,6 +216,7 @@ li.tete-navigation
   top: 320px;
   color: white;
 }
+/* Le boutton */
 .button-map {
   background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%);
    padding: 15px 45px;
@@ -231,6 +239,7 @@ li.tete-navigation
    color: #fff;
    text-decoration: none;
 }
+/* Réseaux sociaux */
 .social-network
 {
   display: flex;
@@ -246,11 +255,13 @@ li.tete-navigation
   display: flex;
   justify-content: space-between;
 }
+/* Le texte change de couleur à l'infini, évidemment aux couleurs de la ville. */
 @keyframes color-change
 {
   0% { color: #1a5388; }
   100% { color: #76bedd; }
 }
+/* Le footer*/
 .barre-de-navigation-footer
 {
   display: flex;
