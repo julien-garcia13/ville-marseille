@@ -1,0 +1,79 @@
+.formulaire-block
+{
+    display: flex;
+    flex-direction: column;
+    font-family: 'balootamma2';
+    font-size: 60px;
+    justify-content: center;
+    background-image: url("marseille-france.jpg");
+    color: white;
+}
+form {
+    margin: 0 auto;
+    width: 50%;
+    padding: 1em;
+    border: 1px solid rgb(14, 209, 243);
+    border-radius: 1em;
+  }
+  
+  form div + div {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+  }
+  
+  input, textarea {
+    font: 1em sans-serif;
+    width: 40%;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #000;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 2em;
+  }
+.formulaire-title
+{
+  display: flex;
+  position: relative;
+  left: 37%;
+}
+.send {
+  margin-left: 30%;
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: blue;
+  background-image: linear-gradient(to top left,
+                                    rgba(0, 0, 0, .2),
+                                    rgba(0, 0, 0, .2) 30%,
+                                    rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+              inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.send:hover {
+  background-color: blue;
+}
+
+.send:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+              inset 2px 2px 3px rgba(0, 0, 0, .6);
+}

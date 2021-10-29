@@ -1,0 +1,20 @@
+.histoire-de-marseille
+{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    font-family: 'balootamma2';
+    font-size: 20px;
+    color: white;
+    background-image: url("peste-mairie-grand-saint-antoine.jpg");
+}
+.titre-histoire
+{
+    font-size: 30px;
+}
+.videos-histoire
+{
+    display:flex;
+    justify-content: space-around;
+}
